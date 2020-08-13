@@ -15,7 +15,7 @@ Für lokale Repositorys (auf dem eigenen PC)
 Für remote Repositorys (z.B.GitHub)
 - git push			// Nimmt das lokale Repository und schiebt (pusht) es ins remote Repository (also ins inet 				   z.B. in meinen Github accound).
 - git pull			// Zieht die aktuellste Version des in GitHub hochgeladenen Repositorys.
-- git clone			// Kopiert das remote Repository in den aktuellen Ordner auf dem Computer.
+- git clone GitLink		// Kopiert das remote Repository in den aktuellen Ordner auf dem Computer.
 
 
 
@@ -33,6 +33,11 @@ um in den Branch zu wechseln verwendet man den befehl: git checkout NameDesBranc
 um wieder in den MasterBranch zu kommen verwendet man (logischerweise) den Befehl: git checkout master
 um 2 Branches miteinander zu mergen verwendet man (wenn man sich im MasterBranch befindet): git merge NameDesBranches  
  
+Schritte um github Repository zu aktuallisieren
+1) git add . 
+2) git commit -m 'Komentar'
+3) git push
+
 
 
 
