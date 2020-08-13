@@ -23,6 +23,18 @@ Für remote Repositorys (z.B.GitHub)
  git config --global user.name "BillyBones"
  git config --global user.email "mattes.ohse@gmail.com"
 
+Die '.gitignore' Datei:
+Mit einem Editor eine datei mit dem Namen .gitignore erstellen. die dateinamen (z.B. test.txt), die in dieser Datei stehen werden nicht ins git Repository commitet, wenn man mit 'git add .' alle Dateien der Staging-Area zugefühgt werden.
+
+Branches erstellen:
+Ein branch ist eine Kopie eines Repositorys. Man arbeitet nicht am Original, sondern nur den branch also der kopie.
+um einen Branch zu erstellen verwendetman dein Befehl: git branch NameDesBranches
+um in den Branch zu wechseln verwendet man den befehl: git checkout NameDesBranches
+um wieder in den MasterBranch zu kommen verwendet man (logischerweise) den Befehl: git checkout master
+um 2 Branches miteinander zu mergen verwendet man (wenn man sich im MasterBranch befindet): git merge NameDesBranches  
+ 
+
+
 
 
  
