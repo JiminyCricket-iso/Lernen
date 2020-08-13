@@ -1,0 +1,24 @@
+Git trottelanleitung: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+Basic Befehle:
+Für lokale Repositorys (auf dem eigenen PC)
+- git init			// initialisiert ein lokales Repository (.gitfolder) im Projektordner.
+- git add <filename>		// Fügt eine Datei der Git Index-Staging-Area zu. Hat man das gemacht kann man commiten.
+- git add*.html			// Fügt alle Dateien mit der Endung .html der Staging-Area zu
+- git add .			// Fügt alles was sich in dem Ordner befindet der Staging-Area hinzu
+- git rm --cached <filename>	// nimmt die Datei aus der Staging-Area wieder raus. 
+- git status			// Damit kann man nachsehen, welche Dateien sich in der Index-Staging-Area befinden, welche 				   	   durch den commit Befehl commitet werden.
+- git commit			// Nimmt alles was sich in der index-, oder Staging-Area befindet und fügt es dem lokalen Repository 			   zu.
+
+Für remote Repositorys (z.B.GitHub)
+- git push			// Nimmt das lokale Repository und schiebt (pusht) es ins remote Repository (also ins inet z.B. in	 			   meinen Github accound).
+- git pull			// Zieht die aktuellste Version des in GitHub hochgeladenen Repositorys.
+- git clone			// Kopiert das remote Repository in den aktuellen Ordner auf dem Computer.
+
+
+
+-Bevor man überhaupt was macht sollte man Git seinen Benutzernamen (BillyBones)  und seine emailadresse   (mattes.ohse@gmail.com) geben: 
+ git config --global user.name 'BillyBones'
+ git config --global user.email 'mattes.ohse@gmail.com'
+sdfsdf
+ 

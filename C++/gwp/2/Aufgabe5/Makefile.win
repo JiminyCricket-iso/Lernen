@@ -1,0 +1,3 @@
+all:
+	g++ Aufgabe5.cpp -o Winkelfunktionen
+
