@@ -1,29 +1,10 @@
 #include <iostream>
+#include "swap.hpp"
 using namespace std;
 
-#include "swap.hpp"
+// Für die Linker einstrellung: https://www.youtube.com/watch?v=KRAHce3zewM 
 
 
-void swap_ref(int &a, int &b)
-{
-	int temp;		//temp = hilfsvariable
-	temp = a;	
-	a = b;
-	b = temp;
-}	
-
-void swap_prt(int *c, int *d)
-{
-	int temp;
-	temp = *c;
-	*c = *d;
-	*d = temp;
-
-	
-	
-}
-
-/*
 int main(void)
 {
 
@@ -37,7 +18,7 @@ int main(void)
 	cout << "swap_ref(a,b)" << endl;
 	swap_ref(a,b); 
 	cout << "a=" << a << "b=" << b<< endl;
-
+4
 
 	cout << "Für Zeiger:" << endl;
 	
@@ -58,5 +39,3 @@ int main(void)
 	
 	return 0;
 }
-
-*/
