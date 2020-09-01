@@ -3,7 +3,7 @@
 //using namespace std;
 
 
-long polynom(int x, int koeff[], int ArrayGroesse)
+float polynom(float x, int koeff[], int ArrayGroesse)
 {
 	
 	float Ergebnis=0;
@@ -13,6 +13,9 @@ long polynom(int x, int koeff[], int ArrayGroesse)
 	}
 	return Ergebnis;
 }
+
+
+
 /*
 int main(void)
 {

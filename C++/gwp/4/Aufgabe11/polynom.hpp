@@ -1,2 +1,2 @@
 #pragma once
-long polynom(int x, int koeff[], int ArrayGroesse);
+float polynom(float x, int koeff[], int ArrayGroesse);
