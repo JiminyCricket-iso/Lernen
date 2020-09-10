@@ -1,22 +1,52 @@
+// Programm zur Demonstration eines Kopierkonstruktors
 #include <iostream>
-#include <cstdio>
 using namespace std;
 
-int main(void)
+
+
+class tKlasse
 {
-	int x =10;
-	int* y = &x;
+	public:
+		tKlasse()
+		{
+			Zeiger = new int;
+			*Zeiger = 5;
+		}
+		
+		~tKlasse()
+		{
+			delete Zeiger;
+			Zeiger = 0;
+		}
+		
+		void SetData(int a) {*Zeiger = a;}
+		int GetData() const {return *Zeiger;}
+		
+		tKlasse(const tKlasse& k)
+		{
+			cout << "Kopierkonstruktor" << endl;
+			Zeiger = new int;
+			*Zeiger=k.GetData();
+			sonstiges=k.sonstiges;
+		}
+		
+		int sonstiges;
 	
-	printf("x= %i, y= %p",x, y);
-	printf(",*y= %i",*y);
-	cout << endl;
-	
-	void* pi;
-	pi=&x;
-	printf("*(int*) pi= %i", *(int*)pi);
-	cout << endl;
-	
-	pi=NULL;
-	printf("%p", pi);
-	
-	}
+	private:
+		int *Zeiger;
+};
+
+void Funktion(tKlasse para)
+{
+	cout << "Funktion:" << para.GetData() << endl;
+}
+
+int main()
+{
+	tKlasse Objekt;
+	cout << Objekt.GetData() << endl;
+	Objekt.SetData(7);
+	cout << Objekt.GetData() << endl;
+	Funktion(Objekt);
+	cout << Objekt.GetData() << endl;
+}
