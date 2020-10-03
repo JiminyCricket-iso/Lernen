@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearerKongruenzgenerator", "LinearerKongruenzgenerator\LinearerKongruenzgenerator.vcxproj", "{6BA94164-D16C-4BE5-8D0D-52744632BE0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Debug|x64.ActiveCfg = Debug|x64
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Debug|x64.Build.0 = Debug|x64
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Debug|x86.Build.0 = Debug|Win32
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Release|x64.ActiveCfg = Release|x64
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Release|x64.Build.0 = Release|x64
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Release|x86.ActiveCfg = Release|Win32
+		{6BA94164-D16C-4BE5-8D0D-52744632BE0C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5363B413-7AFE-4F3A-8B5A-5DE5A13A5245}
+	EndGlobalSection
+EndGlobal

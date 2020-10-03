@@ -1,0 +1,4 @@
+﻿  DynamicArrayClass.cpp
+C:\Users\Billy Bones\Desktop\ProjectEuler\C++\DynamicArrayClass\DynamicArrayClass\DynamicArrayClass.cpp(95,30): error C2248: 'KongruenzGenerator::Array': cannot access private member declared in class 'KongruenzGenerator'
+C:\Users\Billy Bones\Desktop\ProjectEuler\C++\DynamicArrayClass\DynamicArrayClass\DynamicArrayClass.cpp(11): message : see declaration of 'KongruenzGenerator::Array'
+C:\Users\Billy Bones\Desktop\ProjectEuler\C++\DynamicArrayClass\DynamicArrayClass\DynamicArrayClass.cpp(6): message : see declaration of 'KongruenzGenerator'
